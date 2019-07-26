@@ -1,0 +1,9 @@
+{
+  "wifi": {
+    "sta": {
+      "enable": true,
+      "ssid": "wifi name",
+      "pass": "wifi password"
+    }
+  }
+}

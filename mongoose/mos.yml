@@ -1,0 +1,28 @@
+author: Chris Gunawardena
+description: ESP test
+# arch: PLATFORM
+version: 1.0
+manifest_version: 2017-05-18
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
+
+# platform: esp32
+# build_vars:
+#   FLASH_SIZE: 2097152
+
+# # platform: esp8266
+
+# build_vars:
+#   FLASH_SIZE: 1048576
+#   BOARD: "esp8266-1M"
+
+tags:
+  - js
+
+filesystem:
+  - fs
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/boards
+  - origin: https://github.com/mongoose-os-libs/js-demo-bundle
